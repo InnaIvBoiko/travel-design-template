@@ -213,3 +213,161 @@ header {
     flex-direction: column;
     gap: 8px;
 }
+
+/* Section Hotels and Restaurants */
+
+.hotel_restaurant-row-up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-all {
+    display: flex;
+    width: 85px;
+    height: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    color: #7B61FF;
+    border-radius: 12px;
+    background-color: #F6F4FF;
+}
+
+.hotel_restaurant-row-down {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.hotel-restaurant-cart{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hotel-restaurant-cart-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotel-restaurant-cart-link {
+    display: flex;
+    gap: 2px;
+}
+
+/* Section Travel Tips and Advice */
+
+.tips-advice-row-up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tips-advice-row-down {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.tips-advice-cart {
+    display: flex;
+    gap: 32px;
+}
+
+.tips-advice-cart-text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tips-advice-cart-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 16px;
+}
+.text-normal {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.tips-advice-cart-icons {
+    display: flex;
+    gap: 24px;
+}
+
+.tips-advice-cart-icons-item {
+    display: flex;
+    gap: 4px;
+}
+.text-xsmall {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.33;
+    color: #979797;
+}
+
+/* Section Activities */
+
+.activities-row-up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activities-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.activities-list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Section About Us */
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.about-us-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+.about-us-title {
+    margin-bottom: 0;
+}
+
+.about-us-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    width: 548px;
+}
+
+.read-more {
+    display: flex;
+    width: 113px;
+    height: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    color: #7B61FF;
+    border-radius: 12px;
+    background-color: #F6F4FF;
+}
